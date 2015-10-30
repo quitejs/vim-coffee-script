@@ -39,7 +39,7 @@ syn match coffeeKeyword /\<for\s\+own\>/ contained containedin=coffeeRepeat
 \                       display
 hi def link coffeeKeyword Keyword
 
-syn match coffeeOperator /\<\%(instanceof\|typeof\|delete\)\>/ display
+syn match coffeeOperator /\<\%(yield\|yield\ from\|instanceof\|typeof\|delete\)\>/ display
 hi def link coffeeOperator Operator
 
 " The first case matches symbol operators only if they have an operand before.
